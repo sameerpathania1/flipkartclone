@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Col } from "react-bootstrap"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import Content from "./components/Content"
+import Dropdown from "./container/common/Dropdown"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Col style={{
+        padding: 0, top: 0, width: '100%', position: "fixed", zIndex: 99
+      }}>
+        <Header />
+      </Col>
+      <Col style={{ padding: 0 }} >
+        <Content />
+      </Col>
+      <Col style={{ padding: 0, overflow: 'hidden' }}>
+        <Footer />
+      </Col>
+    </div >
   );
 }
 

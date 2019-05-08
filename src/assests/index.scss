@@ -1,0 +1,22 @@
+
+.top{
+    .slick-prev{
+        display: block;
+        z-index: 13;
+        left: 21px;
+        top: 125px;
+    }
+    ::before{
+        font-size: 50px
+    }
+    .slick-next{
+        display: block;
+        z-index: 13;
+        right: 55px;
+        top: 125px;
+    }
+    :before{
+        font-size: 50px;
+    }
+
+}
