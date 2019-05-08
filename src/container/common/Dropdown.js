@@ -79,7 +79,7 @@ class Dropdown extends Component {
                         </div>
                     </Col>
                     <Col style={{ padding: 0 }}>
-                        <h6>Offer Zone</h6>
+                        <h6 style={{marginTop: '15px'}}>Offer Zone</h6>
                     </Col>
                 </Row>
             </Container>
