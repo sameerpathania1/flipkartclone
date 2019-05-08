@@ -38,7 +38,7 @@ class Card extends React.Component {
 
                             <p style={{ margin: "15px 0px 0px 0px", padding: 0, fontSize: 15 }}>{i.name}</p>
 
-                            <p style={{ margin: 0, marginBottom: -15, display: "-webkit-inline-box", fontSize: 15 }}> <button style={{ border: "none", cursor: 'none', background: "green", color: "white", fontSize: 13, padding: "0px 3px" }}>{i.ratbtn} <i class="fas fa-star"></i></button><p style={{ paddingLeft: 8, fonWeight: 500, color: "#878787" }}>({i.rating})</p> </p>
+                            <p style={{ margin: 0, marginBottom: -15, display: "-webkit-inline-box", fontSize: 15 }}> <button style={{ border: "none", cursor: 'auto', background: "green", color: "white", fontSize: 13, padding: "0px 3px" }}>{i.ratbtn} <i class="fas fa-star"></i></button><p style={{ paddingLeft: 8, fonWeight: 500, color: "#878787" }}>({i.rating})</p> </p>
 
 
                             <p style={{ margin: 0, padding: 0, fontSize: 14, display: "-webkit-inline-box" }}><p style={{ fontWeight: "bold" }}>{i.price}</p> &nbsp;&nbsp;<del>{i.prevprice}</del> &nbsp; <p style={{ color: "green", fontSize: 13 }}>{i.off}</p></p>
