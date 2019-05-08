@@ -1,9 +1,6 @@
 body {
   background-color: #f1f3f6;
 }
-.App {
-  text-align: center;
-}
 .header {
   background-color: #2776ef;
   color: white;
@@ -62,7 +59,7 @@ a {
 }
 .footerdetails {
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 500; 
     color: #fff;
     display: block;
     font-weight: 400;
@@ -114,6 +111,7 @@ a {
   padding: 12px 6px;
   text-decoration: none;
   display: block;
+  text-align: left;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
